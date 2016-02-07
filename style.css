@@ -1,0 +1,143 @@
+html, body {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding:0;
+}
+header{
+  color: white;
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+h1 {
+  font-size:1.5rem;
+}
+.top-section h1{
+  font-size: 1.5rem;
+}
+.top-section{
+  text-align: center;
+}
+.top-section{
+  border-bottom: 4px solid #444;
+}
+.wrapper{
+  max-width: 92%;
+  margin: 0 auto;
+}
+.top-border{
+  border-top: 2px solid #444;
+  margin-top: 3px;
+  padding: 20px 0;
+  width: 100%;
+}
+legend{
+  font-size: 1.5rem;
+}
+fieldset{
+  border: none;
+  margin: 0;
+  padding:0;
+}
+#top-fieldset{
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #444;
+}
+label{
+  display: block;
+}
+form{
+  text-align: left;
+}
+input, select{
+  box-sizing: border-box;
+  margin:10px 0;
+  padding: 20px;
+  width: 100%;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+
+}
+select{
+  height: 54px;
+  appearance:none;
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  overflow: hidden;
+  background: url(img/arrow.png) no-repeat 98% #eee;
+  background-size: 30px;
+}
+label, p, footer{
+  color: #888;
+}
+input:focus, select:focus{
+  outline-color: transparent;
+  outline-style: none;
+  border: 2px solid navy;
+}
+.inline-label{
+  display: inline;
+}
+input[type='checkbox'], input[type='radio']{
+  width: auto;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #eee;
+}
+textarea{
+  width: 100%;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  height: 100px;
+  margin: 0 0 15px 0;
+}
+button{
+  padding: 15px;
+  width: 100%;
+  background-color: #37DBAA;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+  border-radius: 4px;
+  font-size: 2rem;
+  color: white;
+}
+footer{
+  padding: 25px;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+#zip{
+  max-width: 50%;
+}
+input::-webkit-input-placeholder {
+   color: #ccc;
+   font-style: italic;
+   text-align: right;
+}
+@media (min-width: 768px){
+  .wrapper{
+    max-width: 800px;
+  }
+  .form-line{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .form-line input, .form-line select{
+    width: 70%;
+
+    display: inline-block;
+  }
+  #zip{
+    max-width: 25%;
+  }
+  label{
+    display: inline-block;
+    width: 29.5%;
+  }
+}
