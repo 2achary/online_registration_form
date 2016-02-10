@@ -29,11 +29,12 @@ h1 {
 .top-border{
   border-top: 2px solid #444;
   margin-top: 3px;
-  padding: 20px 0;
+  padding: 10px 0;
   width: 100%;
 }
 legend{
   font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 fieldset{
   border: none;
@@ -67,7 +68,7 @@ select{
   -moz-appearance:none; /* Firefox */
   -webkit-appearance:none; /* Safari and Chrome */
   overflow: hidden;
-  background: url(img/arrow.png) no-repeat 98% #eee;
+  background: url(../img/arrow.png) no-repeat 98% #eee;
   background-size: 30px;
 }
 label, p, footer{
